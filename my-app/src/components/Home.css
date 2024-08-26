@@ -1,0 +1,47 @@
+/* Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .home-container a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .home-container a:hover {
+    background-color: #0056b3;
+    color: #e9ecef;
+  }
+  
+  .home-container a:first-child {
+    background-color: #28a745;
+  }
+  
+  .home-container a:first-child:hover {
+    background-color: #218838;
+  }
+  
+  .home-container a:last-child {
+    background-color: #17a2b8;
+  }
+  
+  .home-container a:last-child:hover {
+    background-color: #138496;
+  }
+  
