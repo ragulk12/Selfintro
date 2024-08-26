@@ -25,7 +25,7 @@ const ProfileList = () => {
             } catch (error) {
                 console.error('Failed to fetch profiles', error);
                 // Handle error (e.g., invalid token)
-                navigate('/login', { replace: true });
+               
             }
         };
 
